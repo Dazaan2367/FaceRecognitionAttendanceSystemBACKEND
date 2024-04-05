@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "660c0c30088c5f9b6a4e06ab"
+  },
+  "emailId": "deepak2004sakthi@gmail.com",
+  "name": "Deepaksakthi V k",
+  "Department": "IT",
+  "students": {
+    "123": {
+      "name": "Elon Musk",
+      "major": "IT",
+      "starting_year": 2023,
+      "total_attendance": 7,
+      "CGPA": "8.2",
+      "year": 3,
+      "last_attendance_time": "2024-03-22 00:54:34"
+    },
+    "420": {
+      "name": "Modi",
+      "major": "Economics and Political Science",
+      "starting_year": 2020,
+      "total_attendance": 12,
+      "CGPA": "7.5",
+      "year": 4,
+      "last_attendance_time": "2024-01-11 00:54:34"
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "660c0c30088c5f9b6a4e06ac"
+  },
+  "emailId": "tamilselvi@gmail.com",
+  "name": "Tamil Selvi",
+  "Department": "IT",
+  "students": {
+    "3123212049": {
+      "name": "Farhan",
+      "major": "IT",
+      "starting_year": 2021,
+      "total_attendance": 12,
+      "CGPA": "7.5",
+      "year": 3,
+      "last_attendance_time": "2024-01-11 00:54:34"
+    },
+    "312321205037": {
+      "name": "Deepaksakthi",
+      "major": "IT",
+      "starting_year": 2021,
+      "total_attendance": 7,
+      "CGPA": "8.2",
+      "year": 3,
+      "last_attendance_time": "2024-03-22 00:54:34"
+    }
+  }
+}]

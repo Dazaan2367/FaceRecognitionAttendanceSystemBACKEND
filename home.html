@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Attendance Maintenance System</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://stjosephs.ac.in/sliderinfra/Frontview%202023.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: rgba(44, 62, 80, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 3px solid #3498db;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7); /* Adjusted background color to be slightly transparent */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2 {
+            margin-top: 0;
+            color: #fff;
+        }
+
+        h2{
+            color:black;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        button {
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3498db;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>face Attendance Maintenance System</h1>
+    </header>
+    <div class="container">
+        <p>
+            The real-time face recognition system for student attendance management utilizes a combination of computer vision and Deep learning techniques to efficiently and accurately track attendance.
+        </p>
+        
+        <h2>System Workflow:</h2>
+        <ul>
+            <li>
+                Face Detection: The system starts by detecting and isolating faces within live video feeds. This process involves using computer vision algorithms to identify facial regions in the video frames.
+            </li>
+            <li>
+                Feature Extraction: Once faces are detected, the system extracts important facial features such as shape, texture, and color. These features are essential for distinguishing one face from another.
+            </li>
+            <li>
+                Face Embeddings: The extracted facial features are encoded into mathematical representations called face embeddings. Face embeddings capture unique characteristics of each face in a compact numerical format.
+            </li>
+            <li>
+                Database Comparison: The encoded face vectors are then compared against a pre-existing database of registered students. This comparison is typically done using machine learning algorithms that measure the similarity between face embeddings.
+            </li>
+        </ul>
+
+        <a href="/Teacherlogin"><button>Login</button></a>
+    </div>
+</body>
+</html>
