@@ -10,5 +10,6 @@ class VideoCamera(object):
     def get_frame(self):
         ret, frame = self.video.read()
         ret, jpeg = cv2.imencode('.jpg',frame)
+        gray = cv2.cvtColor(frame , cv2.COLOR_BGR2RGB)
         return jpeg.tobytes()
     
